@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-private var names = ["Jack",
+private let names: Set = ["Jack",
                      "John",
                      "Mike",
                      "James",
@@ -17,7 +17,7 @@ private var names = ["Jack",
                      "Boris",
                      "Kendall",
                      "George"]
-private var secondNames = ["Smith",
+private let secondNames: Set = ["Smith",
                            "Johnson",
                            "Williams",
                            "Jones",
@@ -26,7 +26,7 @@ private var secondNames = ["Smith",
                            "Miller",
                            "Wilson",
                            "Cook"]
-private var emails = ["asd@email.com",
+private let emails: Set = ["asd@email.com",
                       "adasd@yahoo.com",
                       "fgdf@gmail.com",
                       "dhdfg@yandex.com",
@@ -35,7 +35,7 @@ private var emails = ["asd@email.com",
                       "cbbdf@galon.ua",
                       "dgdfgd@youmail.com",
                       "hukhk1@income.net"]
-private var phones = [+12345678900,
+private let phones: Set = [+12345678900,
                        +12345678735,
                        +12345678862,
                        +12345678901,

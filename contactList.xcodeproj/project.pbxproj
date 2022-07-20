@@ -62,18 +62,58 @@
 		8952384428884A9B003AF92F /* contactList */ = {
 			isa = PBXGroup;
 			children = (
-				8952384528884A9B003AF92F /* AppDelegate.swift */,
-				8952384728884A9B003AF92F /* SceneDelegate.swift */,
+				89523865288879AA003AF92F /* App */,
+				8952386328887997003AF92F /* View Controllers */,
+				89523864288879A0003AF92F /* Models */,
+				89523866288879B1003AF92F /* Storyboards */,
+				89523867288879BB003AF92F /* Resources */,
+			);
+			path = contactList;
+			sourceTree = "<group>";
+		};
+		8952386328887997003AF92F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				8952385928884B01003AF92F /* ContactViewController.swift */,
 				895238612888587F003AF92F /* ContactsWithSectionsViewController.swift */,
 				8952385F288855B8003AF92F /* DetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		89523864288879A0003AF92F /* Models */ = {
+			isa = PBXGroup;
+			children = (
 				8952385B28884C12003AF92F /* DataStore.swift */,
-				8952384B28884A9B003AF92F /* Main.storyboard */,
-				8952384E28884A9D003AF92F /* Assets.xcassets */,
-				8952385028884A9D003AF92F /* LaunchScreen.storyboard */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		89523865288879AA003AF92F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8952384528884A9B003AF92F /* AppDelegate.swift */,
+				8952384728884A9B003AF92F /* SceneDelegate.swift */,
 				8952385328884A9D003AF92F /* Info.plist */,
 			);
-			path = contactList;
+			path = App;
+			sourceTree = "<group>";
+		};
+		89523866288879B1003AF92F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8952384B28884A9B003AF92F /* Main.storyboard */,
+				8952385028884A9D003AF92F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		89523867288879BB003AF92F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8952384E28884A9D003AF92F /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,7 +341,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V2AAW35578;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = contactList/Info.plist;
+				INFOPLIST_FILE = contactList/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -329,7 +369,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V2AAW35578;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = contactList/Info.plist;
+				INFOPLIST_FILE = contactList/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

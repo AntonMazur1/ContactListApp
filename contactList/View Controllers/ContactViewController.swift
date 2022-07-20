@@ -22,8 +22,8 @@ class ContactViewController: UITableViewController {
             detailVC.contacts = contacts[indexPath.row]
         }
     }
-    // MARK: - Table view data source
     
+    // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "contactCell", for: indexPath)
         let contact = contacts[indexPath.row].fullname
